@@ -55,7 +55,7 @@
         <div class="page-header sans">
             <div class="flex-container">
                 <div id="header-left">
-                    <div class="solid-bg header-bar lr-pad boldest">
+                    <div class="solid-bg header-bar lr-pad boldest radius-left">
                         <span">{{ site.title }}</span>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         </div>
                 </div>
                 <div id="header-right">                        
-                    <div class="solid-bg header-bar lr-pad">
+                    <div class="solid-bg header-bar lr-pad radius-right">
                             <button id="menuButton" class="menu-button solid-bg" aria-label="Main Menu" onclick="showHideMenu();">
                                 <span class="menu-line"></span><br>
                                 <span class="menu-line"></span><br>
@@ -80,12 +80,12 @@
    
         </div>
         <div class="menu-wrapper sans">
-            <div class="pop-up-menu solid-bg" id="PopUpMenu">
+            <div class="pop-up-menu solid-bg radius-left radius-right" id="PopUpMenu">
                 <div id="menu-right">
                     <button id="closeButton" class="menu-button solid-bg" aria-label="Close Menu" onclick="showHideMenu();"> X
                     </button>
                 </div>
-                <div class="navigation sans">
+                <div class="navigation sans lr-pad">
                     {% include navigation.html %}
                 </div>
             </div>
@@ -105,13 +105,13 @@
                 {% include navigation.html %}
             </div>
         </div>
-        <div class="page-footer sans solid-bg">
+        <div class="page-footer sans solid-bg radius-left radius-right">
             <div class="lr-pad">
                 <span class="boldest">Where to find me:</span><br>
-                <a href="https://www.twitter.com/{{ site.social-links.twitter }}">Twitter (@ShawnPPence)</a><br>
-                <a href="https://www.linkedin.com/in/{{ site.social-links.linkedin }}/">LinkedIn</a><br>
-                <a href="https://github.com/{{ site.social-links.github }}">GitHub</a><br>
-                {% if site.social-links.stackoverflow %}<a href="https://stackoverflow.com/users/{{ site.social-links.stackoverflow }}">Stack Overflow</a>{% endif %}
+                <a href="https://www.twitter.com/{{ site.social-links.twitter }}" class="lr-pad">Twitter (@ShawnPPence)</a><br>
+                <a href="https://www.linkedin.com/in/{{ site.social-links.linkedin }}/" class="lr-pad">LinkedIn</a><br>
+                <a href="https://github.com/{{ site.social-links.github }}" class="lr-pad">GitHub</a><br>
+                {% if site.social-links.stackoverflow %}<a href="https://stackoverflow.com/users/{{ site.social-links.stackoverflow }}" class="lr-pad">Stack Overflow</a>{% endif %}
             </div>
         </div>
     </body>

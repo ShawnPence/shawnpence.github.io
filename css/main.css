@@ -18,9 +18,17 @@ body {
     font-weight: 900;
 }
 
+.radius-left{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.radius-right{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
 
 .solid-bg {
-    background-color: #e8e8e8;
+    background-color: #e0e0e0;
 }
 
 a {
@@ -33,7 +41,7 @@ a:hover {
 
 .lr-pad {
     padding-right:4px;
-    padding-left: 4px;
+    padding-left: 12px;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -45,7 +53,7 @@ h1,h2,h3,h4,h5,h6
 
 .navigation {
     font-size: 1em;
-    line-height: 1.65;
+    line-height: 2;
     font-weight: bold;
 }
 
@@ -126,6 +134,8 @@ h1,h2,h3,h4,h5,h6
 #header-right {
     width: 45%;
     text-align: right;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 #menu-right {
@@ -178,6 +188,7 @@ h1,h2,h3,h4,h5,h6
     padding: 10px;
     font-size: 0.9em;
     margin-bottom: 10px;
+    border-radius: 5px
 }
 .messagetitle {
     font-style: italic;
@@ -199,9 +210,8 @@ h1,h2,h3,h4,h5,h6
 .page-footer {
     /*width: 100%;*/
     display: block;
-    height: 130px;
-    line-height: 26px;
-    font-size: .9em;
+    height: 160px;
+    line-height: 32px;
     font-weight: bold;
 }
 
@@ -223,9 +233,10 @@ h1,h2,h3,h4,h5,h6
         margin-bottom: 25px;
         width: 22%;
         display: block;
-        border-radius: 2px;
+        border-radius: 4px;
         box-shadow: 1px 1px 10px #e8e8e8;
         padding-left: 1%;
+        padding-top: 10px;
         order: 3;
     }
 
