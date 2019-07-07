@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="{{ site.author.name }}" />
+        {% if page.subtitle %}<meta name="description" content="{{ page.subtitle }}" />{% endif %}
+
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+        <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+
+        <link rel="stylesheet" href="/css/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Overpass:200,400,700,400italic,700italic,800,800italic,900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,700,400italic,700italic,800,800italic&display=swap" rel="stylesheet">
+
+
+        <!-- Facebook OpenGraph tags -->
+        <meta property="og:title" content="{% if page.social-title %}{{page.social-title}}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+        <meta property="og:description" content="{% if page.social-description %}{{page.social-description}}{% elsif page.description %}{{ page.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+        {% if page.share-img %}
+        <meta name="og:image" content="{{ site.url }}{{ page.social-img }}" />
+        {% elsif site.avatar %}
+        <meta name="og:image" content="{{ site.url }}{{ site.avatar }}" />
+        {% endif %}
+
+
+        <!-- Twitter summary cards -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="{{ site.author.twitter }}" />
+        <meta name="twitter:creator" content="{{ site.author.twitter }}" />
+        <meta name="twitter:title" content="{% if page.social-title %}{{page.social-title}}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+        <meta name="twitter:description" content="{% if page.social-description %}{{page.social-description}}{% elsif page.description %}{{ page.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        {% if page.share-img %}
+        <meta name="twitter:image" content="{{ site.url }}{{ page.social-img }}" />
+        {% elsif site.avatar %}
+        <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
+        {% endif %}
+
+        <script>
+            function showHideMenu() {
+                var menuElement = document.getElementById("PopUpMenu")
+                var menuStyle = getComputedStyle(menuElement);
+                if (menuStyle.display === "none") {
+                    menuElement.style.display = "block";
+                } else {
+                    menuElement.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="page-header sans">
+            <div class="flex-container">
+                <div id="header-left">
+                    <div class="solid-bg header-bar lr-pad boldest">
+                        <span">{{ site.title }}</span>
+                    </div>
+                </div>
+                <div id="header-center">
+                        <div class="solid-bg header-bar inner-center">
+                            
+                        </div>
+                        <div class="clear-bg outer-center">
+                            <img id="header-image" src="{{ site.avatar }}" width="64" height="64" alt="{{ site.avatar-alt-text }}">
+                        </div>
+                </div>
+                <div id="header-right">                        
+                    <div class="solid-bg header-bar lr-pad">
+                            <button id="menuButton" class="menu-button solid-bg" aria-label="Main Menu" onclick="showHideMenu();">
+                                <span class="menu-line"></span><br>
+                                <span class="menu-line"></span><br>
+                                <span class="menu-line"></span>
+                            </button>
+                    </div>
+                </div>
+            </div>
+   
+        </div>
+        <div class="menu-wrapper sans">
+            <div class="pop-up-menu solid-bg" id="PopUpMenu">
+                <div id="menu-right">
+                    <button id="closeButton" class="menu-button solid-bg" aria-label="Close Menu" onclick="showHideMenu();"> X
+                    </button>
+                </div>
+                <div class="navigation sans">
+                    {% include navigation.html %}
+                </div>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="body-container">
+                <div class="page-title sans">
+                    <h1 class="boldest">{{ page.title }}</h1>
+                    {%if page.subtitle %}<hr class="narrow-hr">
+                    {{ page.subtitle }}{% endif %}
+                </div>
+                <div class="content">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="navigation sans" id="NavBar">
+                {% include navigation.html %}
+            </div>
+        </div>
+        <div class="page-footer sans solid-bg">
+            <div class="lr-pad">
+                <span class="boldest">Where to find me:</span><br>
+                <a href="https://www.twitter.com/{{ social-links.twitter }}">Twitter (@ShawnPPence)</a><br>
+                <a href="https://www.linkedin.com/in/{{ social-links.linkedin }}/">LinkedIn</a><br>
+                <a href="https://github.com/{{ social-links.github }}">GitHub</a><br>
+                {% if social-links.stackoverflow %}<a href="https://stackoverflow.com/users/{{ social-links.stackoverflow }}">Stack Overflow</a>{% endif %}
+            </div>
+        </div>
+    </body>
+ </html>

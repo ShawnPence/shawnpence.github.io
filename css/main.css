@@ -1,0 +1,279 @@
+body {
+    display: block;
+    font-family: 'IBM Plex Serif', 'Times New Roman', Times, serif;
+    color: #3C3C3C;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sans {
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+}
+.sans a
+{
+    text-decoration-line: none;
+}
+.boldest {
+    font-weight: 900;
+}
+
+
+.solid-bg {
+    background-color: #e8e8e8;
+}
+
+a {
+    color: #2060b0;
+}
+a:hover {
+    color: #2878dc;
+    text-decoration-line: underline;
+}
+
+.lr-pad {
+    padding-right:4px;
+    padding-left: 4px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.navigation {
+    font-size: 1em;
+    line-height: 1.65;
+    font-weight: bold;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.page-header {
+    height: 64px;
+    font-weight: bold;
+}
+
+.header-bar {
+    height: 48px;
+    vertical-align: middle;
+    line-height: 48px;
+}
+
+#NavBar {
+    order: 1;
+    display: none;
+}
+
+
+.menu-button {
+    height: 24px;
+    line-height: 3px;
+    width: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b0b0b0;
+    text-align: center;
+    color: #808080;
+}
+
+.menu-line {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #808080
+}
+
+
+
+#menuButton {
+    visibility:visible;
+}
+#PopUpMenu {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    margin-top: 17px;
+    margin-right: 0px;
+    opacity: 1;
+    padding: 4px;
+}
+
+.pop-up-menu .menu-wrapper
+{
+    display: block;
+}
+.menu-wrapper
+{
+    visibility: visible;
+}
+
+#header-left {
+    width: 45%;
+}
+#header-center {
+    width: 10%;
+    text-align: center;
+}
+#header-right {
+    width: 45%;
+    text-align: right;
+}
+
+#menu-right {
+    text-align: right;
+}
+
+#header-image {
+    border-radius: 50%;
+}
+
+.inner-center
+{
+    position: relative;
+    z-index: 1;
+}
+
+.outer-center
+{
+    position: relative;
+    top:-52px;
+    z-index: 2;
+    background-color: rgba(0,0,0,0);
+}
+
+
+.body-container {
+    width: 96%;
+    order: 2;
+    display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.body-container p {
+    line-height: 1.6em;
+    margin-bottom: 1.85em;
+}
+
+
+.page-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.messagebox {
+    border-style: dotted;
+    border-color: #a0a0a0;
+    border-width: 1px;
+    padding: 10px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.messagetitle {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.narrow-hr
+{
+    max-width: 250px;
+    border: 0;
+    border-top: 1px solid #f0f0f0;
+    border-color: inherit;
+    border-width: 3px;
+    border-radius: 1.5px;
+    margin-top:1px;
+    margin-bottom:5px;
+}
+
+.page-footer {
+    /*width: 100%;*/
+    display: block;
+    height: 130px;
+    line-height: 26px;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+
+
+@media print {
+    #menuButton{
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    #menuButton {
+        visibility: hidden;
+    }
+
+    #NavBar {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 22%;
+        display: block;
+        border-radius: 2px;
+        box-shadow: 1px 1px 10px #e8e8e8;
+        padding-left: 1%;
+        order: 3;
+    }
+
+    .menu-wrapper {
+        display: none;
+        visibility: hidden;
+    }
+
+    .body-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 4%;
+        margin-left: 5%;
+        width: 68%;
+
+    }
+    .small-screen-menu
+    {
+        display: none;
+    }
+    .content
+    {
+        font-size: 1.10625em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .body-container {
+        width: 54%;
+        margin-left: 23%;
+        margin-right: 6%;
+    }
+
+    #NavBar {
+        width: 16%;
+    }
+}
+
+@media screen and (min-width: 1500px)
+{
+    .body-container {
+        width: 54%;
+        margin-left: 23%;
+        margin-right: 4%
+    }
+    #NavBar
+    {
+        width: 15%;
+        margin-right: 3%;
+    }
+}
