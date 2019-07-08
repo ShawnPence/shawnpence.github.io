@@ -21,13 +21,15 @@ social-links:
   stackoverflow: "10593386/shawn-pence"
 
 timezone: "America/Chicago"
+
+max_excerpt_length: 30
+
 # --- Should not need to change below this line --- #
 
 # Output options (more information on Jekyll's site)
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-excerpt_length: 50
 
 kramdown:
   input: GFM
