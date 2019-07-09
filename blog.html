@@ -6,6 +6,6 @@ social-description: Blog posts by Shawn Pence
 ---
 
   {% for post in site.posts %}
-  <div class="blog-title"><a href="{{ post.url }}" class="sans">{{ post.title }}{% if post.subtitle %} - {{ post.subtitle }}{% endif %}</a> <time class="blog-date" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date: "%B %d, %Y"  }}</time></div>
+  <div class="blog-title"><a href="{{ post.url }}" class="sans">{{ post.title }}{% if post.subtitle %} - {{ post.subtitle }}{% endif %}</a><span class="blog-date"> - <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date: "%B %d, %Y"  }}</time></span></div>
   <div class="blog-excerpt">{{ post.excerpt | truncatewords: site.max_excerpt_length}}</div>
   {% endfor %}
