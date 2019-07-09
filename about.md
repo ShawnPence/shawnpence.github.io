@@ -6,15 +6,11 @@ social-title: Shawn Pence - About Me
 social-description: Bio / Background info about Shawn Pence
 ---
 
-I am an experienced C# / SQL developer with a record of successful projects and satisfied application users.  Continuous self-improvement, sharing knowledge, and teaching others are among my strengths.  I've advanced my own career by helping my teammates succeed. I'm a driven self-starter always looking for ways to improve processes and contribute to team success.
-
-## Skills
-
-I am experienced in C# and SQL development, Microsoft SQL Server Reporting Services (SSRS), and various other programming languages, with the majority of my programming experience in SQL/SSRS and .NET based application development.  I have also worked as a systems administrator maintaining AD, Exchange, Hyper-V cluster servers, SAN, and various network equipment, and have worked with PowerShell and VBScript to automate my sysadmin responsibilities.
+I am experienced in C# and SQL development, Microsoft SQL Server Reporting Services (SSRS), and various other programming languages, with the majority of my programming experience in SQL/SSRS and .NET based application development.  I love to teach and learn from others and prefer to build my carrer by building stronger teams. I have also worked as a systems administrator maintaining AD, Exchange, Hyper-V cluster servers, SAN, and various network equipment, and have worked with PowerShell and VBScript to automate my sysadmin responsibilities.
 
 ## Background
 
-Most recently, I have been a C# / T-SQL developer creating and supporting WinForms and ASP<i></i>.NET applications, the SQL databases used by those applications, SQL Server Reporting Services reports, and Excel reports generated using C# and/or VB<i></i>.NET
+Most recently, I have been a C# / T-SQL developer creating and supporting WinForms and ASP\.NET applications, the SQL databases used by those applications, SQL Server Reporting Services reports, and Excel reports generated using C# and/or VB\.NET
 
 Previously, I've worked in end-user support, where I automated many of my routine tasks, leading me to a role administering Systems Management Server (now called Systems Center Configuration Manager), where I automated even more routine tasks, then a position administering AD, Exchange, SQL Server, VMWare, and other server and networking products, where (as you can probably guess), I automated away the boring parts of my job, eventually leading to full-time developer work.
 
