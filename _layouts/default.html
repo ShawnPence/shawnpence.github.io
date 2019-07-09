@@ -10,11 +10,23 @@
 
         <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
 
+        <!-- styles -->
         <link rel="stylesheet" href="/css/main.css" />
+        {% if page.css-files.size > 0 %}
+        {% for css in page.css-files %}
+        <link rel="stylesheet" href="{{ css }}" />
+        {% endfor %}
+        {% endif %}
+
+        <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Overpass:200,400,700,400italic,700italic,800,800italic,900&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,700,400italic,700italic,800,800italic&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700,400italic,700italic&display=swap" rel="stylesheet">
-
+        {% if page.font-files.size > 0 %}
+        {% for font in page.font-files %}
+        <link href="{{ font }}" rel="stylesheet" />
+        {% endfor %}
+        {% endif %}
 
         <!-- Facebook OpenGraph tags -->
         <meta property="og:title" content="{% if page.social-title %}{{page.social-title}}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
@@ -26,7 +38,6 @@
         {% elsif site.avatar %}
         <meta name="og:image" content="{{ site.url }}{{ site.avatar }}" />
         {% endif %}
-
 
         <!-- Twitter summary cards -->
         {% if page.share-img %}
