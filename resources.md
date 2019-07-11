@@ -49,7 +49,7 @@ This book has good detailed implementations of algorithms in Java. When I began 
 
 **[Algorithms Illuminated](http://www.algorithmsilluminated.org/)**<br>
 *Author: Tim Roughgarden*<br>
-The two books currently available cover about 1/2 of the Coursera specialization listed below.  For me personally, these books instantly just made sense; everything just "clicked" as I was reading them. *Note: the design and implementation of common data structures like linked lists, stacks and queues aren't covered in these books, but you will need to use stacks and queues for graph searches in book 2.*
+The three books currently available cover about 3/4 of the Coursera specialization listed below.  For me personally, these books instantly just made sense; everything just "clicked" as I was reading them. *Note: the design and implementation of common data structures like linked lists, stacks and queues aren't covered in these books, but you will need to use stacks and queues for graph searches in book 2.*
 
 **Coursera [Algorithms](https://www.coursera.org/specializations/algorithms) specialization**<br>
 *Instructor: Tim Roughgarden*<br>
