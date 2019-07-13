@@ -103,7 +103,9 @@
                     </button>
                 </div>
                 <div class="navigation sans lr-pad">
+                    <nav>
                     {% include navigation.html %}
+                    </nav>
                 </div>
             </div>
         </div>
@@ -119,15 +121,17 @@
                 </main></div>
             </div>
             <div class="navigation sans" id="NavBar">
-                {% include navigation.html %}
-                <hr class="nav-separator" />
-                <span class="smaller-text">
-                    <span class="boldest"><em>Where to find me:</em></span><br>
-                    <a href="https://www.twitter.com/{{ site.social-links.twitter }}" class="lr-pad">Twitter (@ShawnPPence)</a><br>
-                    <a href="https://www.linkedin.com/in/{{ site.social-links.linkedin }}/" class="lr-pad">LinkedIn</a><br>
-                    <a href="https://github.com/{{ site.social-links.github }}" class="lr-pad">GitHub</a><br>
-                    {% if site.social-links.stackoverflow %}<a href="https://stackoverflow.com/users/{{ site.social-links.stackoverflow }}" class="lr-pad">Stack Overflow</a>{% endif %}
-                </span>
+                <nav>
+                    {% include navigation.html %}
+                    <hr class="nav-separator" />
+                    <span class="smaller-text">
+                        <span class="boldest"><em>Where to find me:</em></span><br>
+                        <a href="https://www.twitter.com/{{ site.social-links.twitter }}" class="lr-pad">Twitter (@ShawnPPence)</a><br>
+                        <a href="https://www.linkedin.com/in/{{ site.social-links.linkedin }}/" class="lr-pad">LinkedIn</a><br>
+                        <a href="https://github.com/{{ site.social-links.github }}" class="lr-pad">GitHub</a><br>
+                        {% if site.social-links.stackoverflow %}<a href="https://stackoverflow.com/users/{{ site.social-links.stackoverflow }}" class="lr-pad">Stack Overflow</a>{% endif %}
+                    </span>
+                </nav>
             </div>
         </div>
         <div class="page-footer sans smaller-text">
