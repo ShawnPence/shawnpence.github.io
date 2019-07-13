@@ -1,7 +1,7 @@
 body {
     display: block;
     font-family: 'IBM Plex Serif', 'Times New Roman', Times, serif;
-    color: #2c2c2c;
+    color: #2a2a2a;
     background-color: #fbfbfc
 }
 pre, code {
@@ -39,7 +39,7 @@ a {
     color: #1850a0;
 }
 a:hover {
-    color: #2858d0;
+    color: #4870d0;
     text-decoration-line: underline;
 }
 
