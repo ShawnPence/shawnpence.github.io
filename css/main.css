@@ -4,13 +4,19 @@ body {
     color: #2a2a2a;
     background-color: #fbfbfc
 }
-pre, code {
+pre {
     font-family: 'IBM Plex Mono', monospace;
-    background-color: #f0f0f0;
-    color: #181818;
-    font-size: .9em;
-    padding-left: 10px;
+    background-color: #f4f4f4;
+    color: #000000;
+    font-size: .907485em;
+    padding-left: 18px;
+    line-height: 1.45em;
 }
+
+.highlight pre {
+    box-shadow: 0px 0px 5px #d8d8d8;
+}
+
 .sans {
     font-family: Overpass, Arial, Helvetica, sans-serif;
 }

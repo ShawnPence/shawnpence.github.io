@@ -4,6 +4,8 @@ title: Lines of Code
 subtitle: A Misleading Measurement
 social-title: Lines of Code - A Misleading Measurement
 social-description: Lines of Code are a poor choice to measure developer performance.
+css-files:
+ - "/css/code.css"
 ---
 
 Some employers desire a way to quantify the performance of their developers, and may turn to lines of code (LOC) as one such measurement. Countless blog posts and online comments have lamented this choice already, so why am I adding my voice to the chorus of opposition? Unfortunately, despite all the advice to the contrary, it keeps coming up as a way of measuring the value of a developer.
@@ -15,16 +17,18 @@ On more than one occasion, I've seen developers bragging about the amount of cod
 The most verbose way of solving a problem is rarely the best. Take, for example, a very simple request: print the numbers 1 to 10. Using Python as an example, here are two snippets that would both accomplish the task:
 
 Example 1:
-```
 
+{% highlight python %}
+ 
 for i in range(1,11):
     print(i)
-
-```
+ 
+{% endhighlight %}
 
 Example 2:
-```
 
+{% highlight python %}
+ 
 print(1)
 print(2)
 print(3)
@@ -35,8 +39,8 @@ print(7)
 print(8)
 print(9)
 print(10)
-
-```
+ 
+{% endhighlight %}
 
 While both examples print the same output, the first is efficient and would scale to printing 1 to 1,000,000 with a simple change and could still be accomplished with 2 lines of code. The second example does not scale well, but would give a developer credit for five times more LOC than the first example when printing from 1 to 10. This is an exaggerated case, but I've seen (and embarrassingly, in my early days of software development, even been responsible for) copy/paste chunks of the same code used in multiple places throughout a program instead of creating a single method and using it everywhere the chunk of code is needed.
 
