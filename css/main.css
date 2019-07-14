@@ -271,12 +271,19 @@ p{
 }
 
 @media print {
+    body{
+        color: #000000;
+        background-color: #ffffff;
+    }
     #menuButton{
         visibility: hidden;
     }
     .page-footer
     {
         display: none;
+    }
+    .body-container {
+        margin-top: 15px;
     }
 }
 
