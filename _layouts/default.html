@@ -7,7 +7,7 @@
         <meta name="description" content="{% if page.social-description %}{{page.social-description}}{% elsif page.subtitle %}{{ page.title }} - {{ page.subtitle }}{% else %}{{ page.title }}{% endif %}" />
 
         <title>{% if page.title and page.subtitle %}{{ page.title }} - {{ page.subtitle }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
+        <link rel="icon" type="image/png" href="{{ site.url }}{{ site.favicon }}" />
         <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
 
         <!-- styles -->
