@@ -3,7 +3,6 @@ code {
     background-color: #f4f4f4;
     color: #000000;
     font-size: .907485em;
-    padding-left: 18px;
     line-height: 1.45em;
     overflow: auto;
     max-width: 100%;
@@ -13,3 +12,4 @@ code {
 .highlight .k { color: #0022bb;}  /* Keyword */
 .highlight .ow { color: #800080;} /* Operator.Word */
 .highlight .nb { color: #006000;} /* Name.Builtin */
+.highlight .language-sql .s1 { color: #800000;}  /* Keyword */
