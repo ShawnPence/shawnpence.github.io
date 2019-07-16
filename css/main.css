@@ -5,16 +5,21 @@ body {
     background-color: #fbfbfc
 }
 pre {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     background-color: #f4f4f4;
     color: #000000;
-    font-size: .907485em;
+    font-size: .8125rem;
     padding-left: 18px;
     line-height: 1.45em;
 }
 
 .highlight pre {
     box-shadow: 0px 0px 5px #d8d8d8;
+}
+
+figure {
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
 }
 
 .sans {
@@ -274,6 +279,13 @@ p{
     font-size: .941176em;
 }
 
+.shadowbox {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #d8d8d8;
+    padding: 10px; 
+}
+
+
 @media print {
     body{
         color: #000000;
@@ -302,6 +314,7 @@ td, th {
 
 }
 
+
 @media screen and (max-width: 319px)
 {
     .inner-left {
@@ -312,11 +325,6 @@ td, th {
         /*adjust photo position to account for inner-left being hidden*/
         top:-2px;
     }
-}
-.shadowbox {
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px #d8d8d8;
-    padding: 10px; 
 }
 
 @media screen and (min-width: 850px) {
@@ -340,9 +348,9 @@ td, th {
     .body-container {
         margin-top: 25px;
         margin-bottom: 25px;
-        margin-right: 4%;
-        margin-left: 5%;
-        width: 68%;
+        margin-right: 3%;
+        margin-left: 3%;
+        width: 71%;
 
     }
     .small-screen-menu
@@ -359,12 +367,12 @@ td, th {
 }
 @media screen and (min-width: 1200px) {
     .body-container {
-        width: 54%;
-        margin-left: 23%;
-        margin-right: 4%;
+        width: 58%;
+        margin-left: 21%;
+        margin-right: 3%;
     }
     #NavBar {
-        width: 18%;
+        width: 17%;
         margin-right:1%
     }
 }

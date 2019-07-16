@@ -1,15 +1,39 @@
 code {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     background-color: #f4f4f4;
     color: #000000;
-    font-size: .907485em;
-    line-height: 1.45em;
+    font-size: .875rem;
+    line-height: 1.55em;
     overflow: auto;
     max-width: 100%;
     display: inline-block;
 }
 
+code::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+code::-webkit-scrollbar:vertical {
+    width: 16px;
+}
+
+code::-webkit-scrollbar:horizontal {
+    height: 16px;
+}
+
+code::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 3px;
+}
+
+code::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #d8d8d8; 
+}
+
+
 .highlight .k { color: #0022bb;}  /* Keyword */
 .highlight .ow { color: #800080;} /* Operator.Word */
 .highlight .nb { color: #006000;} /* Name.Builtin */
-.highlight .language-sql .s1 { color: #800000;}  /* Keyword */
+.highlight .c1 { color: #006000; font-style: italic;} /* Comment */
+.highlight .language-sql .s1 { color: #800000;} 
