@@ -1,6 +1,6 @@
 body {
     display: block;
-    font-family: 'IBM Plex Serif', 'Times New Roman', Times, serif;
+    font-family: 'Mada', Arial, Helvetica, sans-serif;
     color: #2a2a2a;
     background-color: #fbfbfc
 }
@@ -79,9 +79,13 @@ h1,h2,h3,h4,h5,h6
 }
 
 .navigation {
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 2;
     font-weight: bold;
+}
+
+.nobold {
+    font-weight: 400;
 }
 
 .flex-container{
@@ -116,6 +120,7 @@ h1,h2,h3,h4,h5,h6
     border-color: #ffffff;
     text-align: center;
     color: #ffffff;
+    border-radius: 4px;
 }
 .menu-line {
     display: block;
@@ -361,7 +366,7 @@ td, th {
     }
     .content
     {
-        font-size: 1.0625em;
+        font-size: 1.125rem;
     }
     .page-footer {
         display: none;
@@ -369,12 +374,12 @@ td, th {
 }
 @media screen and (min-width: 1200px) {
     .body-container {
-        width: 58%;
-        margin-left: 21%;
+        width: 56%;
+        margin-left: 22%;
         margin-right: 3%;
     }
     #NavBar {
-        width: 17%;
+        width: 18%;
         margin-right:1%
     }
 }
