@@ -5,7 +5,7 @@ code {
     font-size: .875rem;
     line-height: 1.55em;
     overflow: auto;
-    max-width: 100%;
+    max-width: 96%;
     display: inline-block;
 }
 
@@ -23,11 +23,11 @@ code::-webkit-scrollbar:horizontal {
 
 code::-webkit-scrollbar-thumb {
     background-color: #808080;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
 code::-webkit-scrollbar-track {
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: #d8d8d8; 
 }
 

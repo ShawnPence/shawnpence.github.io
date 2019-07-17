@@ -15,11 +15,13 @@ pre {
 
 .highlight pre {
     box-shadow: 0px 0px 5px #d8d8d8;
+    border-radius: 15px;
 }
 
 figure {
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
+    margin-inline-start: 2%;
+    margin-inline-end: 2%;
+    border-radius: 15px;
 }
 
 .sans {
@@ -34,12 +36,12 @@ figure {
 }
 
 .radius-left{
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .radius-right{
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .solid-bg {
@@ -211,7 +213,7 @@ h1,h2,h3,h4,h5,h6
 }
 
 .messagebox {
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0px 0px 10px #d8d8d8;
     padding: 15px;
     margin: 30px 20px 30px 20px;
@@ -240,7 +242,7 @@ h1,h2,h3,h4,h5,h6
     /*width: 100%;*/
     display: block;
     line-height: 32px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0px 0px 10px #d8d8d8;
     font-weight: bold;
     margin-top: 30px;
@@ -280,7 +282,7 @@ p{
 }
 
 .shadowbox {
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0px 0px 10px #d8d8d8;
     padding: 10px; 
 }
