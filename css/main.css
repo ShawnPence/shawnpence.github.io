@@ -71,8 +71,10 @@ hr {
 h1,h2,h3,h4,h5,h6
 {
     font-weight: bold;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-start: 0; /* for Chrome / Firefox */
+    margin-block-end: 0; 
+    margin-bottom: 0; /* for Edge / IE */
+    margin-top: 0;
 }
 .nav-separator {
     width: 80%;
