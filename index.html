@@ -15,7 +15,7 @@ social-description: website for Shawn P Pence, software developer
 </div>
 {% if site.posts.size > 0 %}
 <div>
-    <div class="content"><strong>Recent Blog Posts:</strong></div><br>
+    <div class="content"><h2>Recent Blog Posts:</h2></div><br>
     <div class="lr-pad">
         {% for post in site.posts limit:5 %}
         <div><h2 class="blog-title"><a href="{{ post.url }}" class="sans">{{ post.title }}{% if post.subtitle %} - {{ post.subtitle }}{% endif %}</a></h2></div>

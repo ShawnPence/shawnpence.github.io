@@ -14,8 +14,10 @@ pre {
 }
 
 .highlight pre {
-    box-shadow: 0px 0px 5px #d8d8d8;
+    box-shadow: 5px 5px 10px #d8d8d8;
     border-radius: 15px;
+    border: 3px solid #1850a0;
+
 }
 
 figure {
@@ -219,7 +221,8 @@ h1,h2,h3,h4,h5,h6
 
 .messagebox {
     border-radius: 15px;
-    box-shadow: 0px 0px 10px #d8d8d8;
+    box-shadow: 5px 5px 10px #d8d8d8;
+    border: 3px solid #1850a0;
     padding: 20px;
     margin: 30px 20px 30px 20px;
 }
@@ -248,7 +251,8 @@ h1,h2,h3,h4,h5,h6
     display: block;
     line-height: 32px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px #d8d8d8;
+    box-shadow: 5px 5px 10px #d8d8d8;
+    border: 3px solid #1850a0;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -288,10 +292,13 @@ p{
 
 .shadowbox {
     border-radius: 15px;
-    box-shadow: 0px 0px 10px #d8d8d8;
+    box-shadow: 5px 5px 10px #d8d8d8;
     padding: 10px; 
+    border: 3px solid #1850a0;
 }
-
+nav.shadowbox {
+    border: 3px solid #a00000;
+}
 
 @media print {
     body{
@@ -376,10 +383,10 @@ td, th {
     .body-container {
         width: 56%;
         margin-left: 22%;
-        margin-right: 3%;
+        margin-right: 2.25%;
     }
     #NavBar {
-        width: 18%;
+        width: 18.75%;
         margin-right:1%
     }
 }
