@@ -109,8 +109,14 @@ h1,h2,h3,h4,h5,h6
 .header-bar {
     height: 58px;
     vertical-align: middle;
-    line-height: 60px;
+    line-height: 64px;
 }
+
+.menu-align {
+    line-height: 50px;
+    margin-right: 4px;
+}
+
 #NavBar {
     order: 1;
     display: none;
@@ -142,8 +148,8 @@ h1,h2,h3,h4,h5,h6
     top: 0px;
     right: 0px;
     z-index: 2;
-    margin-top: 24px;
-    margin-right: 12px;
+    margin-top: 21px;
+    margin-right: 16px;
     opacity: 1;
     padding: 4px;
     color: #ffffff;
@@ -330,7 +336,13 @@ td, th {
 
 }
 
-
+@media screen and (max-width: 450px)
+{
+    .inner-left {
+        font-size: 1.25rem;
+    }
+    
+}
 @media screen and (max-width: 319px)
 {
     .inner-left {
@@ -342,6 +354,8 @@ td, th {
         top:-2px;
     }
 }
+
+
 
 @media screen and (min-width: 850px) {
     #menuButton {
