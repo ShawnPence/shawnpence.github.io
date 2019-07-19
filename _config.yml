@@ -25,6 +25,9 @@ timezone: "America/Chicago"
 
 max_excerpt_length: 30
 
+plugins:
+  - jekyll-sitemap
+
 # --- Should not need to change below this line --- #
 
 # Output options (more information on Jekyll's site)
