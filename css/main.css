@@ -357,14 +357,15 @@ td, th {
 
 
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
     #menuButton {
         visibility: hidden;
     }
 
     #NavBar {
         margin-top: 25px;
-        width: 26%;
+        width: 25%;
+        margin-right: 0.5%;
         display: block;
         order: 3;
 
@@ -379,7 +380,7 @@ td, th {
         margin-top: 25px;
         margin-bottom: 25px;
         margin-right: 1.5%;
-        margin-left: 1.5%;
+        margin-left: 2%;
         width: 71%;
 
     }
