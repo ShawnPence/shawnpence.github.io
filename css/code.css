@@ -15,7 +15,7 @@ code::-webkit-scrollbar {
 }
 
 code::-webkit-scrollbar:vertical {
-    width: 16px;
+    width: 0px;
 }
 
 code::-webkit-scrollbar:horizontal {
