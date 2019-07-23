@@ -122,22 +122,33 @@ h1,h2,h3,h4,h5,h6
     display: none;
 }
 .menu-button {
-    height: 24px;
+    height: 28px;
     line-height: 3px;
-    width: 35px;
+    width: 40px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1.5px;
     border-color: #ffffff;
     text-align: center;
     color: #ffffff;
     border-radius: 4px;
+    padding:0px;
+    margin-top: 16px;
 }
+
+#close-button {
+    margin-top: 0px;
+
+}
+
 .menu-line {
     display: block;
     width: 22px;
     height: 2px;
     border-radius: 2px;
-    background-color: #ffffff
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 #menuButton {
     visibility:visible;
@@ -148,7 +159,7 @@ h1,h2,h3,h4,h5,h6
     top: 0px;
     right: 0px;
     z-index: 2;
-    margin-top: 21px;
+    margin-top: 20px;
     margin-right: 16px;
     opacity: 1;
     padding: 4px;
@@ -157,6 +168,9 @@ h1,h2,h3,h4,h5,h6
 }
 #PopUpMenu a {
     color: #fbfbfc;
+}
+#PopUpMenu .navigation {
+    font-size: 1.25rem;
 }
 
 .pop-up-menu .menu-wrapper
