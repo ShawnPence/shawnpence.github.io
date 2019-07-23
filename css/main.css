@@ -361,7 +361,7 @@ td, th {
 
 @media screen and (min-width: 900px) {
     body{
-        background-color: #f0f0f0;
+        background-color: #e6e6e6;
     }
     
     #menuButton {
@@ -390,10 +390,16 @@ td, th {
         background-color: #fbfbfc;
         border-radius: 10px;
         padding-top: 15px;
+        box-shadow: 5px 5px 10px #d0d0d0;
     }
 
     .shadowbox{
         background-color: #fbfbfc;
+    }
+    nav.shadowbox
+    {
+        box-shadow: 5px 5px 10px #d0d0d0;
+
     }
 
     .small-screen-menu
