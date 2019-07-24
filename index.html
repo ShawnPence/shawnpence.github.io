@@ -18,8 +18,10 @@ social-description: website for Shawn P Pence, software developer
     <div class="content"><h2>Recent Blog Posts:</h2></div><br>
     <div class="lr-pad">
         {% for post in site.posts limit:5 %}
-        <div><h2 class="blog-title"><a href="{{ post.url }}" class="sans">{{ post.title }}{% if post.subtitle %} - {{ post.subtitle }}{% endif %}</a></h2></div>
-        <div class="blog-excerpt"><span class="blog-date"><time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date: "%B %d, %Y"  }}</time></span>{{ post.excerpt | truncatewords: site.max_excerpt_length}}</div>
+        <article>
+            <div><h2 class="blog-title"><a href="{{ post.url }}" class="sans">{{ post.title }}{% if post.subtitle %} - {{ post.subtitle }}{% endif %}</a></h2></div>
+            <div class="blog-excerpt"><span class="blog-date"><time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date: "%B %d, %Y"  }}</time></span>{{ post.excerpt | truncatewords: site.max_excerpt_length}}</div>
+        </article>
         {% endfor %}
     </div>
 </div>
