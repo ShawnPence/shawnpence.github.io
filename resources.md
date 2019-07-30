@@ -6,7 +6,7 @@ social-description: A list of books, websites, and other useful information for 
 
 Here are some of the many resources I've used to improve myself and my development skills. I hope you find these as helpful in your career as I have in mine.
 
-*The beginner resources I used when I first began programming are out of print, so the list below has no true beginner resources.*
+*The beginner resources I used when I first began programming are out of print, so the list below has few true beginner resources.*
 
 - [Software Development in General](#software-development-in-general)
 - [Git](#git)
@@ -81,4 +81,3 @@ Combined with the books by the same author, any details that were rough after I 
 Everything from addition and subtraction all the way through statistics, calculus, linear algebra, and differential equations. The first place I'd recommend for anyone wanting to improve their math skills.
 
 **Coursera [Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)**
-
