@@ -9,6 +9,7 @@ Here are some of the many resources I've used to improve myself and my developme
 *The beginner resources I used when I first began programming are out of print, so the list below has no true beginner resources.*
 
 - [Software Development in General](#software-development-in-general)
+- [Git](#git)
 - [SQL](#sql)
 - [Algorithms and Data Structures](#algorithms-and-data-structures)
 - [Math](#math)
@@ -22,6 +23,15 @@ This should be on every developer's required reading list. Good practices of sof
 **Udacity [Design of Computer Programs](https://www.udacity.com/course/design-of-computer-programs--cs212)**<br>
 *Instructor: Peter Norvig*<br>
 I'd been programming for over a decade when I took this course, so for me, much of its content was as much about learning to write Python in a Pythonic way as it was to design software in general, but it would be good for the latter for anyone not already familiar with software design.
+
+## Git
+
+**[Learn Git Branching](https://learngitbranching.js.org/)**<br>
+Interactive Git tutorial with visuals to explain Git operations.
+
+**[Pro Git](https://git-scm.com/book/en/v2)**<br>
+*Authors:  Scott Chacon and Ben Straub*<br>
+e-book version available on Git's website, with a print version available for purchase
 
 ## SQL
 
