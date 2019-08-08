@@ -23,7 +23,7 @@ Below is a code sample in C# followed by an explanation and three example calcul
 Notes:
 
 - The method below is designed for C#, where days of the week are numbered from 0 to 6 for Sunday through Saturday in the [DayOfWeek](https://docs.microsoft.com/en-us/dotnet/api/system.dayofweek?view=netcore-2.2) enum. Programming languages that use other numbering systems for the days of the week would need alterations to this method or a different method entirely.
-- I've seen and used other variations of DayOfWeek math used to achieve the same results. The other variations would replace or alter one or more steps, or use different methods for finding last vs first. I find this method to be the easiest to teach and to understand why it works and visualize on a calender how it works.
+- I've seen and used other variations of DayOfWeek math used to achieve the same results. The other variations would replace or alter one or more steps, or use different methods for finding last vs first. I find this method to be the easiest to teach and to understand why it works and visualize on a calendar how it works.
 
 {% highlight csharp %}
  
