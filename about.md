@@ -6,7 +6,7 @@ social-title: Shawn Pence - About Me
 social-description: About Shawn Pence - background, education, experience, etc.
 ---
 
-I am a software developer experienced in C# and SQL, Microsoft SQL Server Reporting Services (SSRS), and various other programming languages. I love to teach and learn from others and prefer to build my carrer by building stronger teams. I have also worked as a systems administrator maintaining AD, Exchange, Hyper-V cluster servers, SAN, and various network equipment, and have worked with PowerShell and VBScript to automate my sysadmin responsibilities.
+I am a software developer experienced in C# and SQL, Microsoft SQL Server Reporting Services (SSRS), and various other programming languages. I love to teach and learn from others and prefer to build my career by building stronger teams. I have also worked as a systems administrator maintaining AD, Exchange, Hyper-V cluster servers, SAN, and various network equipment, and have worked with PowerShell and VBScript to automate my sysadmin responsibilities.
 
 <div class="messagebox">
     <div class="messagetitle">I'm currently seeking new employment opportunities:</div>
