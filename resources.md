@@ -24,6 +24,11 @@ This should be on every developer's required reading list. Good practices of sof
 *Instructor: Peter Norvig*<br>
 I'd been programming for over a decade when I took this course, so for me, much of its content was as much about learning to write Python in a Pythonic way as it was to design software in general, but it would be good for the latter for anyone not already familiar with software design.
 
+**CODE The Hidden Language of Computer Hardware and Software**<br>
+*Author: Charles Petzold*<br>
+An explanation and history of how data is encoded and how computers work.
+
+
 ## Git
 
 **[Learn Git Branching](https://learngitbranching.js.org/)**<br>
