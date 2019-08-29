@@ -11,7 +11,7 @@ I am a software developer experienced in C# and SQL, Microsoft SQL Server Report
 <div class="messagebox">
     <div class="messagetitle">I'm currently seeking new employment opportunities:</div>
     I want to be a long-term part of a successful team and am looking for full-time remote work.<br>
-    <em class="smaller-text">(I need a flexible schedule in summers due to my special-needs teen; I'll get the work done,
+    <em class="smaller-text">(Please contact me on LinkedIn or Twitter.  Note: I need a flexible schedule in summers due to my special-needs teen; I'll get the work done,
          but it may not be 8-5 in the summer.)</em>
 </div>
 
