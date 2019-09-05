@@ -9,6 +9,7 @@ Here are some of the many resources I've used to improve myself and my developme
 *The beginner resources I used when I first began programming are out of print, so the list below has few true beginner resources.*
 
 - [Software Development in General](#software-development-in-general)
+- [C#](#CSharp)
 - [Git](#git)
 - [SQL](#sql)
 - [Algorithms and Data Structures](#algorithms-and-data-structures)
@@ -27,6 +28,15 @@ I'd been programming for over a decade when I took this course, so for me, much 
 **CODE The Hidden Language of Computer Hardware and Software**<br>
 *Author: Charles Petzold*<br>
 An explanation and history of how data is encoded and how computers work.
+
+## C#<a name="CSharp"></a>
+
+**[.Net Foundation Presentations](https://presentations.dotnetfoundation.org/)**<br>
+Workshops, Presentations, E-Books, and Tutorials for various skill levels (including beginning developers)
+
+**C# In Depth**<br>
+*Author: Jon Skeet*<br>
+Detailed explanations of many C# concepts - *note: this book is intended for experienced C# developers and assumes significant existing knowledge of the C# programming language*
 
 
 ## Git
