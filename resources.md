@@ -34,7 +34,7 @@ An explanation and history of how data is encoded and how computers work.
 **[.Net Foundation Presentations](https://presentations.dotnetfoundation.org/)**<br>
 Workshops, Presentations, E-Books, and Tutorials for various skill levels (including beginning developers)
 
-**C# In Depth**<br>
+**[C# In Depth](https://csharpindepth.com/)**<br>
 *Author: Jon Skeet*<br>
 Detailed explanations of many C# concepts - *note: this book is intended for experienced C# developers and assumes significant existing knowledge of the C# programming language*
 
