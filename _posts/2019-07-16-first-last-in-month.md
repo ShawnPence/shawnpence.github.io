@@ -12,11 +12,11 @@ Events may have a pattern based on day of the week rather than a specific date. 
 
 Below is a code sample in C# followed by an explanation and three example calculations.
 
-[Code Sample](#Code)<br>
-[Explanation](#Explanation)<br>
-[Example 1](#Example-1) - First Monday in September 2019<br>
-[Example 2](#Example-2) - Last Monday in May 2019<br>
-[Example 3](#Example-3) - Fourth Thursday in November 2019
+[Code Sample](#code)<br>
+[Explanation](#explanation)<br>
+[Example 1](#example-1) - First Monday in September 2019<br>
+[Example 2](#example-2) - Last Monday in May 2019<br>
+[Example 3](#example-3) - Fourth Thursday in November 2019
 
 ## Code
 
