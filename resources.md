@@ -2,6 +2,8 @@
 layout: default
 title: Learning Resources
 social-description: A list of books, websites, and other useful information for anyone wishing to learn software development
+css-files:
+ - "/css/resources.css"
 ---
 
 Here are some of the many resources I've used to improve myself and my development skills. I hope you find these as helpful in your career as I have in mine.
@@ -40,7 +42,6 @@ Workshops, Presentations, E-Books, and Tutorials for various skill levels (inclu
 **[C# In Depth](https://csharpindepth.com/)**<br>
 *Author: Jon Skeet*<br>
 Detailed explanations of many C# concepts - *note: this book is intended for experienced C# developers and assumes significant existing knowledge of the C# programming language*
-
 
 ## Git
 
