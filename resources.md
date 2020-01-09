@@ -33,7 +33,7 @@ An explanation and history of how data is encoded and how computers work.
 
 ## C#<a name="CSharp"></a>
 
-**[.Net Videos](https://dotnet.microsoft.com/learn/videos)**
+**[.Net Videos](https://dotnet.microsoft.com/learn/videos)**<br>
 Beginner-friendly videos on C# and various .NET topics from Microsoft
 
 **[.Net Foundation Presentations](https://presentations.dotnetfoundation.org/)**<br>
