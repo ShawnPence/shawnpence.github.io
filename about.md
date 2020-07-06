@@ -6,7 +6,7 @@ social-title: Shawn Pence - About Me
 social-description: About Shawn Pence - background, education, experience, etc.
 ---
 
-I am a software developer experienced in C# and SQL, Microsoft SQL Server Reporting Services (SSRS), and various other programming languages. I love to teach and learn from others and prefer to build my career by building stronger teams. I have also worked as a systems administrator maintaining AD, Exchange, Hyper-V cluster servers, SAN, and various network equipment, and have worked with PowerShell and VBScript to automate my sysadmin responsibilities.
+I am a software developer experienced in C# and SQL, Microsoft SQL Server Reporting Services (SSRS), VB\.NET and various other programming languages. I love to teach and learn from others and prefer to build my career by building stronger teams. I have also worked as a systems administrator maintaining AD, Exchange, Hyper-V cluster servers, SAN, and various network equipment, and have worked with PowerShell and VBScript to automate my sysadmin responsibilities.
 
 <div class="messagebox">
     <div class="messagetitle">I'm currently seeking new employment opportunities:</div>
@@ -25,6 +25,6 @@ In addition to my programming and sysadmin work, I also have experience in netwo
 
 ## Education
 
-I have a Bachelor of Music Education from the University of Kansas.  My background in education has proved helpful in developing applications that are user-friendly and easy to learn for new users.  I've also put those skills to use in developing end-user training and documentation for my applications.
+I have a Bachelor of Music Education.  My background in education has proved helpful in developing applications that are user-friendly and easy to learn for new users.  I've also put those skills to use in developing end-user training and documentation for my applications.
 
 I learned software development through significant self-study using books, MOOCs, and other online resources.  See my [learning resources](/resources/) page for a partial list of some of the resources I've used that I would recommend to other learners.
