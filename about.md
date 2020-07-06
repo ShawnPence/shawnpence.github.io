@@ -25,6 +25,6 @@ In addition to my programming and sysadmin work, I also have experience in netwo
 
 ## Education
 
-I have a Bachelor of Music Education.  My background in education has proved helpful in developing applications that are user-friendly and easy to learn for new users.  I've also put those skills to use in developing end-user training and documentation for my applications.
+I have a Bachelor of Music Education degree.  My background in education has proved helpful in developing applications that are user-friendly and easy to learn for new users.  I've also put those skills to use in developing end-user training and documentation for my applications.
 
 I learned software development through significant self-study using books, MOOCs, and other online resources.  See my [learning resources](/resources/) page for a partial list of some of the resources I've used that I would recommend to other learners.
