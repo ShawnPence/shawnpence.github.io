@@ -74,6 +74,13 @@ Unfortunately, this doesn't appear to be in print any longer, but there were sti
 
 Some of the materials below are language-specific, others use pseudocode and leave it to the reader to implement in the language of their choice. I've noted the programming language used in each course.
 
+**[Algorithms Illuminated](http://www.algorithmsilluminated.org/)** - *pseudocode*<br>
+*Author: Tim Roughgarden*<br>
+These books are by the same author as the Coursera specialization listed below. Book 1 of this series was the best starting point for algorithms for me. *Note: the design and implementation of common data structures like linked lists, stacks and queues aren't covered in these books, but you will need to use stacks and queues for graph searches in book 2.*
+
+**Coursera [Algorithms](https://www.coursera.org/specializations/algorithms) specialization** - *pseudocode*<br>
+*Instructor: Tim Roughgarden*<br>
+
 **Khan Academy [Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms)** - *JavaScript*<br>
 
 **Udacity [Intro to Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215)** - *Python*<br>
@@ -81,19 +88,10 @@ Some of the materials below are language-specific, others use pseudocode and lea
 
 **Algorithms 4th Edition** - *Java*<br>
 *Authors: Robert Sedgwick, Kevin Wayne / ISBN: 978-0-321-57351-3*<br>
-When I began reading this, I was working almost exclusively in C#. The differences between C# and Java are small enough that it was relatively easy for me to make the leap from the book's examples in Java to code I could use in C#.
-
-**[Algorithms Illuminated](http://www.algorithmsilluminated.org/)** - *pseudocode*<br>
-*Author: Tim Roughgarden*<br>
-The three books currently available cover about 3/4 of the Coursera specialization listed below. For me personally, these books instantly made sense; everything "clicked" as I was reading them. *Note: the design and implementation of common data structures like linked lists, stacks and queues aren't covered in these books, but you will need to use stacks and queues for graph searches in book 2.*
-
-**Coursera [Algorithms](https://www.coursera.org/specializations/algorithms) specialization** - *pseudocode*<br>
-*Instructor: Tim Roughgarden*<br>
-Combined with the books by the same author, any details that were rough after I read the books were filled in by the videos in this specialization.
+When I began reading this, I was working almost exclusively in C#. The differences between C# and Java are small enough that it was relatively easy for me to understand the Java code despite not having previously programmed in Java.
 
 **Introduction to Algorithms** - *pseudocode*<br>
 *Authors: Cormen, Leiserson, Rivest, Stein / ISBN: 978-0-262-03384-8*<br>
-
 ## Math
 
 **[Khan Academy Math](https://www.khanacademy.org/math)**<br>
