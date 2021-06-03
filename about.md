@@ -3,7 +3,7 @@ layout: default
 title: Shawn Pence
 subtitle: About Me
 social-title: Shawn Pence - About Me
-social-description: About Shawn Pence - background, education, experience, etc.
+social-description: About Shawn Pence - C# and SQL developer - experience, background, education
 ---
 
 I am an experienced C# and SQL developer. Always looking for ways to contribute to team success and improve processes, I've advanced my career by helping my teammates succeed and learn. I'm a life-long learner with a love of books and enjoy sharing what I've learned and teaching others.
@@ -13,7 +13,7 @@ I am an experienced C# and SQL developer. Always looking for ways to contribute 
     I want to be a long-term part of a successful team and am looking for full-time remote work. <em class="smaller-text">(Please contact me on LinkedIn or Twitter)</em>
 </div>
 
-## Background
+## Experience / Background
 
 Most recently, I was a C# / T-SQL developer creating and supporting WinForms and ASP\.NET applications and the SQL databases used by those applications, automating business processes, creating and maintaining SQL Server Reporting Services (SSRS) reports, and automating the creation of reports in Excel using C# and VB\.NET.
 
