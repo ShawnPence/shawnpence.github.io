@@ -43,7 +43,7 @@ static DateTime nthDay(int year, int month, int n, DayOfWeek dayOfWeek, bool fro
     }
     else
     {
-        //find the last day of the month, then subtract
+        //find the first day of the next month, subtract 1 to find the last day of the specified month, then subract 7 * (n - 1)
         lastDay = new DateTime(year, month, 1).AddMonths(1).AddDays(-1).Day - (7 * (n - 1));
     }
 
@@ -74,7 +74,7 @@ If you need the last or n<sup>th</sup> from last instead, use the last day of th
 
 ### 2. Find the day of the month for Sunday of the week when the specified day of week is on the last day possible (from step 1)
 
-Why Sunday? In C#, Sunday is 0 in the [DayOfWeek](https://docs.microsoft.com/en-us/dotnet/api/system.dayofweek?view=netcore-2.2) enum. To figure out the correct day in a specific year, this method subtracts days from the last possible day that could possibly meet the criteria. As the day of the month calculated from step 2 moves forward by one day of the week, the n<sup>th</sup> day will be one day of the month earlier. To find Sunday of the week, subract the DayOfWeek requested from the number from step 1.
+Why Sunday? In C#, Sunday is 0 in the [DayOfWeek](https://docs.microsoft.com/en-us/dotnet/api/system.dayofweek) enum. To figure out the correct day in a specific year, this method subtracts days from the last day that could possibly meet the criteria. As the day of the month calculated from step 2 moves forward by one day of the week, the n<sup>th</sup> day will be one day of the month earlier. To find Sunday of the week, subract the DayOfWeek requested from the number from step 1.
 
 ### 3. Find the day of week of the date from step 2 in the specified year
 
