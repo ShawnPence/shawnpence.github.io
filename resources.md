@@ -36,7 +36,7 @@ An explanation and history of how data is encoded and how computers work.
 **[.Net Videos](https://dotnet.microsoft.com/learn/videos)**<br>
 Beginner-friendly videos on C# and various .NET topics from Microsoft
 
-**[.Net Foundation Presentations](https://presentations.dotnetfoundation.org/)**<br>
+**[.Net Foundation Resources](https://dotnetfoundation.org/community/resources)**<br>
 Workshops, Presentations, E-Books, and Tutorials for various skill levels (including beginning developers)
 
 **[C# In Depth](https://csharpindepth.com/)**<br>
