@@ -96,5 +96,3 @@ When I began reading this, I was working almost exclusively in C#. The differenc
 
 **[Khan Academy Math](https://www.khanacademy.org/math)**<br>
 Everything from addition and subtraction all the way through statistics, calculus, linear algebra, and differential equations. The first place I'd recommend for anyone wanting to improve their math skills.
-
-**Coursera [Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)**
